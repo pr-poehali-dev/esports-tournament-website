@@ -93,7 +93,7 @@ const Index = () => {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-primary">
               <Icon name="Gamepad2" className="h-6 w-6 text-white" />
             </div>
-            <span className="text-2xl font-bold">MLT <span className="text-primary">League</span></span>
+            <span className="text-2xl font-bold text-primary">MLT League</span>
           </div>
           
           <div className="hidden md:flex items-center gap-6">
@@ -366,7 +366,7 @@ const Index = () => {
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-primary">
                   <Icon name="Gamepad2" className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-xl font-bold">MLT <span className="text-primary">League</span></span>
+                <span className="text-xl font-bold text-primary">MLT League</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Платформа для киберспортивных соревнований и турниров
