@@ -89,10 +89,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <nav className="sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
         <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-primary">
-              <Icon name="Gamepad2" className="h-6 w-6 text-white" />
-            </div>
+          <div className="flex items-center gap-3">
+            <img src="https://cdn.poehali.dev/files/58423d6b-4f4b-4f1a-8b73-d7e6627dc4d5.png" alt="MLT League" className="h-12 w-12 object-contain" />
             <span className="text-2xl font-bold text-primary">MLT League</span>
           </div>
           
@@ -362,10 +360,8 @@ const Index = () => {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-primary">
-                  <Icon name="Gamepad2" className="h-6 w-6 text-white" />
-                </div>
+              <div className="flex items-center gap-3 mb-4">
+                <img src="https://cdn.poehali.dev/files/58423d6b-4f4b-4f1a-8b73-d7e6627dc4d5.png" alt="MLT League" className="h-10 w-10 object-contain" />
                 <span className="text-xl font-bold text-primary">MLT League</span>
               </div>
               <p className="text-sm text-muted-foreground">
