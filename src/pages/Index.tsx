@@ -162,51 +162,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="tournaments" className="py-16 container">
-        <h2 className="text-4xl font-bold mb-8 flex items-center gap-3">
-          <Icon name="Trophy" className="h-10 w-10 text-primary" />
-          Активные турниры
-        </h2>
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          {tournaments.map((tournament, index) => (
-            <Card 
-              key={tournament.id} 
-              className="group hover:scale-105 transition-all duration-300 hover:shadow-2xl border-border/50 gradient-card animate-slide-up"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <CardHeader>
-                <div className="flex items-start justify-between mb-2">
-                  <Badge className={getStatusColor(tournament.status)}>
-                    {getStatusText(tournament.status)}
-                  </Badge>
-                  <Badge variant="outline" className="border-accent text-accent">
-                    {tournament.game}
-                  </Badge>
-                </div>
-                <CardTitle className="text-2xl group-hover:text-primary transition-colors">
-                  {tournament.name}
-                </CardTitle>
-                <CardDescription className="text-base">
-                  {tournament.date} • {tournament.teams} команд
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2 text-2xl font-bold text-accent">
-                    <Icon name="Award" className="h-6 w-6" />
-                    {tournament.prize}
-                  </div>
-                  <Button variant="outline" className="border-primary hover:bg-primary hover:text-primary-foreground">
-                    Подробнее
-                    <Icon name="ArrowRight" className="ml-2 h-4 w-4" />
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+
 
       <section className="py-16 bg-card/50">
         <div className="container">
